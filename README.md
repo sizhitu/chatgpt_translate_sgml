@@ -1,0 +1,2 @@
+# chatgpt_translate_sgml
+这个脚本使用了BeautifulSoup库来处理SGML文件，并使用Google Translate API进行翻译。用户可以指定输入和输出文件夹，以及目标语言。脚本会遍历输入文件夹中的所有SGML文件，并将它们翻译成目标语言后输出到输出文件夹中。在翻译过程中，脚本会忽略标签之间的内容，并只翻译标签内的文本内容。
