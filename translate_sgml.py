@@ -19,7 +19,7 @@ def translate_file(file_path, target_language):
         f.write(str(soup))
     
 def translate_text(text, target_language):
-    prompt = f"translate the following text from english to {target_language}: {text},only translate text and cannot interpret it."
+    prompt = f"translate the following SGML text to {target_language},only translate text and cannot interpret it,do not translate the SGML tags.: {text}"
     response = openai.Completion.create(
         engine="text-davinci-002", 
         prompt=prompt,
