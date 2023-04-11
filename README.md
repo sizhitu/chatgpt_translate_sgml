@@ -1,4 +1,4 @@
-# chatgpt_translate_sgml
+# ChatGPT_translate_sgml
 - 这个脚本使用了BeautifulSoup库来处理SGML文件，并使用Google Translate API进行翻译。
 - 用户可以指定输入和输出文件夹，以及目标语言。
 - 脚本会遍历输入文件夹中的所有SGML文件，并将它们翻译成目标语言后输出到输出文件夹中。
@@ -14,5 +14,5 @@ python3 translate_sgml.py 'source_file_path' 'target_file_path' 'target_language
 
 > python3 translate_sgml.py '/Users/jim/Documents/TestDemo' '/Users/jim/Documents/TestDemo' 'zh'
 
-# promt
+# Promt
 translate the following SGML text to {target_language},only translate text and cannot interpret it,do not translate the SGML tags.: {text}
