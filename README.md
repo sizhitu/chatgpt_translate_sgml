@@ -14,5 +14,5 @@ python3 translate_sgml.py 'source_file_path' 'target_file_path' 'target_language
 
 > python3 translate_sgml.py '/Users/jim/Documents/TestDemo' '/Users/jim/Documents/TestDemo' 'zh'
 
-# Promt
+# Prompt
 translate the following SGML text to {target_language},only translate text and cannot interpret it,do not translate the SGML tags.: {text}
